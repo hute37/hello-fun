@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b703bb84-be2b-498e-bb80-82cc83905fb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/cruncher.py" afterPath="$PROJECT_DIR$/code/cruncher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/delayer.py" afterPath="$PROJECT_DIR$/code/delayer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/diver.py" afterPath="$PROJECT_DIR$/code/diver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/looper.py" afterPath="$PROJECT_DIR$/code/looper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/piper.py" afterPath="$PROJECT_DIR$/code/piper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/pooler.py" afterPath="$PROJECT_DIR$/code/pooler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/runner.py" afterPath="$PROJECT_DIR$/code/runner.py" />
-    </list>
+    <list default="true" id="b703bb84-be2b-498e-bb80-82cc83905fb5" name="Default" comment="" />
     <ignored path="hello-fun.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
