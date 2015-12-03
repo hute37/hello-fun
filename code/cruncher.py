@@ -31,6 +31,35 @@ def factorize_naive(n):
     return prime_factors
 
 
+def factorize_naive_b(n):
+    """ A naive factorization method. Take integer 'n', return list of
+        factors.
+    """
+    if n < 2:
+        return []
+    factors = []
+    p = 2
+
+    while True:
+        if n == 1:
+            return factors
+
+        r = n % p
+        if r == 0:
+            factors.append(p)
+            n = n // p
+        elif p * p >= n:
+            factors.append(n)
+            return factors
+        elif p > 2:
+            # Advance in steps of 2 over odd numbers
+            p += 2
+        else:
+            # If p == 2, get to 3
+            p += 1
+    assert False, "unreachable"
+
+
 def mp_factorizer_map(nums, nprocs):
     with mp.Pool(nprocs) as pool:
         return {num:factors for num, factors in
